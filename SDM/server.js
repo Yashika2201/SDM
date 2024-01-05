@@ -5,5 +5,5 @@ app.use(express.static('public'))
 app.get("/product",(req, res)=>{var p={ "id":20, "title":"G+2 Bunglow","description":"Residential Structure", "unitprice":1475, "quatity":2 };
                                        res.send(p);
 });
-app.listen(9000);
-console.log("App is listening on port 9000");
+app.listen(8000);
+console.log("App is listening on port 8000");
