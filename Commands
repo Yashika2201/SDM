@@ -1,0 +1,19 @@
+# SDM Commands
+mkdir folder_name
+git clone "link"
+sudo apt update
+sudo apt install npm
+npm intall express
+node server.js
+
+sudo apt install docker.io
+sudo systemctl --type = service --state = running
+ctrl+C
+
+sudo docker build -t image_name(in lowercase) .
+sudo docker images
+sudo docker run -d -p 8000:8000 image_name
+sudo docker ps
+
+
+ip address:8000
